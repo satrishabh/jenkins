@@ -10,7 +10,10 @@ import com.pwc.banking.models.Customer;
 class CustomerTest {
 
 	private static Customer customer;
-	
+	/*
+	 * hello
+	 * 
+	 */
 	@BeforeAll
 	static void createInstance() {
 		customer=new Customer();
