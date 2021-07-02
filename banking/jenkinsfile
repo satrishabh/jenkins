@@ -1,0 +1,13 @@
+pipleline{
+agent any
+tools{
+maven 'maven'
+}
+stages{
+stage("build"){
+step{
+bat "mvn -f /.banking clean install -DskipTests"
+}
+}
+}
+}
